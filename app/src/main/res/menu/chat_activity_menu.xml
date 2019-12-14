@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/view_contact_menu_item"
+        android:title="View Contact" />
+    <item
+        android:id="@+id/chat_media_menu_item"
+        android:title="Media" />
+    <item
+        android:id="@+id/chat_mute_notifications_menu_item"
+        android:title="Mute Notifications" />
+    <item
+        android:id="@+id/chat_wallpaper"
+        android:title="Wallpaper" />
+    <item
+        android:id="@+id/chat_report"
+        android:title="Report" />
+    <item
+        android:id="@+id/chat_block"
+        android:title="Block" />
+    <item
+        android:id="@+id/chat_clear_chat"
+        android:title="Clear Chat" />
+    <item
+        android:id="@+id/chat_export_chat"
+        android:title="Export Chat" />
+    <item
+        android:id="@+id/chat_add_shortcut"
+        android:title="Add Shortcut" />
+</menu>
