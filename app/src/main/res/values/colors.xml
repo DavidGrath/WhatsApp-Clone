@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="toolBarColor">#075D55</color>
+    <color name="incoming_chat">#F6F6F4</color>
+    <color name="outgoing_chat">#DCF8C6</color>
+    <color name="fab_color">#20C65A</color>
+    <color name="checkmark_blue">#34B7F1</color>
+    <color name="chat_background">#ECE5DD</color>
+    <color name="status_fab_color">#F6F6F4</color>
+</resources>

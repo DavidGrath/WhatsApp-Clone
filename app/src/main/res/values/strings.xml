@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WhatsApp Clone</string>
+    <string name="new_group">New Group</string>
+    <string name="new_broadcast">New Broadcast</string>
+    <string name="whatsapp_web">WhatsApp Web</string>
+    <string name="starred_messages">Starred Messages</string>
+    <string name="settings">Settings</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="status_privacy">Status Privacy</string>
+
+    <string name="clear_call_log">Clear Call Log</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

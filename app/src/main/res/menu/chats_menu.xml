@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/app_bar_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Search" app:actionViewClass="android.widget.SearchView" app:showAsAction="always"/>
+    <item android:id="@+id/chatsmenu_newgroup" android:title="@string/new_group" app:showAsAction="never"/>
+    <item android:id="@+id/chatsmenu_newbroadcast" android:title="@string/new_broadcast" app:showAsAction="never"/>
+    <item android:id="@+id/chatsmenu_whatsappweb" android:title="@string/whatsapp_web" app:showAsAction="never"/>
+    <item android:id="@+id/chatsmenu_starredmessages" android:title="@string/starred_messages" app:showAsAction="never"/>
+    <item android:id="@+id/chatsmenu_settings" android:title="@string/settings" app:showAsAction="never"/>
+    <item
+        android:id="@+id/notifs_activity_menu_item"
+        android:title="Notifs Activity" />
+    <item
+        android:id="@+id/new_chat_menu_item"
+        android:title="New Chat" />
+    <item
+        android:id="@+id/start_service_menu_item"
+        android:title="Start Service" />
+</menu>

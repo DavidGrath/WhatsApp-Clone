@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="match_parent"
+                                                     android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="wrap_content"
+                                                                    android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:layout_width="wrap_content"
+                                               android:layout_height="?attr/actionBarSize"
+                                               android:background="@color/toolBarColor" android:id="@+id/main_toolbar"
+                                               app:titleTextColor="#fff">
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <com.google.android.material.tabs.TabLayout android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:id="@+id/mainactivity_tablayout"
+                                                    android:background="@color/toolBarColor"
+                                                    app:tabGravity="fill"
+                                                    app:tabTextColor="#7FFFFFFF"
+                                                    app:tabIndicatorColor="#FFF"
+                                                    app:tabMaxWidth="0dp"
+                                                    app:tabSelectedTextColor="#FFFFFF"></com.google.android.material.tabs.TabLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager.widget.ViewPager android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"
+                                         android:id="@+id/mainactivity_viewpager"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </androidx.viewpager.widget.ViewPager>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_width="wrap_content"
+                                                                           android:layout_height="wrap_content"
+    android:id="@+id/fab"
+    app:layout_anchor="@id/mainactivity_viewpager"
+    app:layout_anchorGravity="bottom|right|end"
+    app:fabSize="normal"
+    android:backgroundTint="@color/fab_color"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_width="wrap_content"
+                                                                           android:layout_height="wrap_content"
+                                                                           android:id="@+id/status_fab"
+                                                                           app:layout_anchor="@id/fab"
+                                                                           app:layout_anchorGravity="center"
+                                                                           app:fabSize="normal"
+                                                                           android:src="@drawable/ic_edit_gray_24dp"
+                                                                           android:backgroundTint="@color/status_fab_color"
+                                                                           android:layout_marginBottom="96dp"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
